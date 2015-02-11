@@ -23,8 +23,6 @@ Methods
    Get predecessors of a slot.
  * `GET /api/v3/rest/room/{room}/slot/{slot}/successors.json`_
    Get successors of a slot.
- * `GET /api/v3/rest/room/{room}/games.json`_
-   List games from a room.
  * `GET /api/v3/rest/room/{room}/score/{player}/total.json`_
    List players total scores.
  * `GET /api/v3/rest/room/{room}/score/{player}/games.json`_
