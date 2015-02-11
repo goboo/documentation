@@ -36,14 +36,14 @@ Methods
  * `POST /api/v3/rest/room/{room}/book.json`_
    Do a booking.
 
-.. _GET /api/v3/rest/rooms.json: rooms.rst
-.. _GET /api/v3/rest/room/{room}.json: room.rst
-.. _GET /api/v3/rest/room/{room}/slots.json: slots.rst
-.. _GET /api/v3/rest/room/{room}/slot/{slot}.json: slot.rst
-.. _GET /api/v3/rest/room/{room}/slot/{slot}/predecessors.json: slot-predecessors.rst
-.. _GET /api/v3/rest/room/{room}/slot/{slot}/successors.json: slot-successors.rst
-.. _GET /api/v3/rest/room/{room}/score/{player}/total.json: score-player-total.rst
-.. _GET /api/v3/rest/room/{room}/score/{player}/games.json: score-player-games.rst
-.. _GET /api/v3/rest/room/{room}/scores/total.json: scores-total.rst
-.. _GET /api/v3/rest/room/{room}/achievements.json: achievements.rst
-.. _POST /api/v3/rest/room/{room}/book.json: book.rst
+.. _GET /api/v3/rest/rooms.json: rooms.rst#readme
+.. _GET /api/v3/rest/room/{room}.json: room.rst#readme
+.. _GET /api/v3/rest/room/{room}/slots.json: slots.rst#readme
+.. _GET /api/v3/rest/room/{room}/slot/{slot}.json: slot.rst#readme
+.. _GET /api/v3/rest/room/{room}/slot/{slot}/predecessors.json: slot-predecessors.rst#readme
+.. _GET /api/v3/rest/room/{room}/slot/{slot}/successors.json: slot-successors.rst#readme
+.. _GET /api/v3/rest/room/{room}/score/{player}/total.json: score-player-total.rst#readme
+.. _GET /api/v3/rest/room/{room}/score/{player}/games.json: score-player-games.rst#readme
+.. _GET /api/v3/rest/room/{room}/scores/total.json: scores-total.rst#readme
+.. _GET /api/v3/rest/room/{room}/achievements.json: achievements.rst#readme
+.. _POST /api/v3/rest/room/{room}/book.json: book.rst#readme
