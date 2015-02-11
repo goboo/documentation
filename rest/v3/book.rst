@@ -17,25 +17,25 @@ Post Parameters
 +----------------+----------+----------+------------------------------+
 | Parameter      | Type     | Required | Description                  |
 +================+==========+==========+==============================+
-| ``name``       | string   | *        | The contact name.            |
+| ``name``       | string   | yes      | The contact name.            |
 +----------------+----------+----------+------------------------------+
-| ``mobile``     | string   | *        | The contact mobile.          |
+| ``mobile``     | string   | yes      | The contact mobile.          |
 +----------------+----------+----------+------------------------------+
-| ``email``      | string   | *        | The contact email.           |
+| ``email``      | string   | yes      | The contact email.           |
 +----------------+----------+----------+------------------------------+
-| ``street``     | string   | *        | The contact street.          |
+| ``street``     | string   | yes      | The contact street.          |
 +----------------+----------+----------+------------------------------+
-| ``postcode``   | string   | *        | The contact postcode.        |
+| ``postcode``   | string   | yes      | The contact postcode.        |
 +----------------+----------+----------+------------------------------+
-| ``city``       | string   | *        | The contact city.            |
+| ``city``       | string   | yes      | The contact city.            |
 +----------------+----------+----------+------------------------------+
-| ``attendance`` | int      | * (1)    | The attendance.              |
+| ``attendance`` | int      | yes (1)  | The attendance.              |
 +----------------+----------+----------+------------------------------+
-| ``exclusive``  | bool     | * (1)    | Book exclusive.              |
+| ``exclusive``  | bool     | yes (1)  | Book exclusive.              |
 +----------------+----------+----------+------------------------------+
-| ``players``    | string[] |          | List of player names.        |
+| ``players``    | string[] | no       | List of player names.        |
 +----------------+----------+----------+------------------------------+
-| ``notes``      | string   |          | A comment from the customer. |
+| ``notes``      | string   | no       | A comment from the customer. |
 +----------------+----------+----------+------------------------------+
 
  * (1) If ``exclusive`` is ``true``, ``attendance`` is not required but can be provided.
