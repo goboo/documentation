@@ -42,7 +42,6 @@ Methods
 .. _GET /api/v3/rest/room/{room}/slot/{slot}.json: slot.rst
 .. _GET /api/v3/rest/room/{room}/slot/{slot}/predecessors.json: slot-predecessors.rst
 .. _GET /api/v3/rest/room/{room}/slot/{slot}/successors.json: slot-successors.rst
-.. _GET /api/v3/rest/room/{room}/games.json: games.rst
 .. _GET /api/v3/rest/room/{room}/score/{player}/total.json: score-player-total.rst
 .. _GET /api/v3/rest/room/{room}/score/{player}/games.json: score-player-games.rst
 .. _GET /api/v3/rest/room/{room}/scores/total.json: scores-total.rst
