@@ -29,16 +29,16 @@ Post Parameters
 +----------------+----------+----------+------------------------------+
 | ``city``       | string   | yes      | The contact city.            |
 +----------------+----------+----------+------------------------------+
-| ``attendance`` | int      | yes (1)  | The attendance.              |
+| ``attendance`` | int      | yes [1]  | The attendance.              |
 +----------------+----------+----------+------------------------------+
-| ``exclusive``  | bool     | yes (1)  | Book exclusive.              |
+| ``exclusive``  | bool     | yes [1]  | Book exclusive.              |
 +----------------+----------+----------+------------------------------+
 | ``players``    | string[] | no       | List of player names.        |
 +----------------+----------+----------+------------------------------+
 | ``notes``      | string   | no       | A comment from the customer. |
 +----------------+----------+----------+------------------------------+
 
- * (1) If ``exclusive`` is ``true``, ``attendance`` is not required but can be provided.
+ * [1] If ``exclusive`` is ``true``, ``attendance`` is not required but can be provided.
 
 Succeed response example
 ------------------------
