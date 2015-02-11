@@ -38,7 +38,7 @@ Post Parameters
 | ``notes``      | string   | no       | A comment from the customer. |
 +----------------+----------+----------+------------------------------+
 
- * [1] If ``exclusive`` is ``true``, ``attendance`` is not required but can be provided.
+* [1] If ``exclusive`` is ``true``, ``attendance`` is not required but can be provided.
 
 Succeed response example
 ------------------------
